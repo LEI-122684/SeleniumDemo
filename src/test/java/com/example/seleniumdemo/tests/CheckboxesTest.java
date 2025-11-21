@@ -1,5 +1,6 @@
-package com.example.seleniumdemo;
+package com.example.seleniumdemo.tests;
 
+import com.example.seleniumdemo.pages.CheckboxesPage;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
