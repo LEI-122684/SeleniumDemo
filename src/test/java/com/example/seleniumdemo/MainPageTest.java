@@ -26,15 +26,23 @@ public class MainPageTest {
 
     @Test
     public void search() {
+
+        try {
+            if(mainPage.cookie.isDisplayed()) {
+                mainPage.cookie.click();
+            }
+        } catch (Exception e) {
+            throw new RuntimeException(e);
+        }
         mainPage.searchButton.click();
 
-        WebElement searchField = driver.findElement(By.cssSelector("[data-test='search-input']"));
+        WebElement searchField = driver.findElement(By.cssSelector("[data-test='input__inner']"));
         searchField.sendKeys("Selenium");
 
         WebElement submitButton = driver.findElement(By.cssSelector("button[data-test='full-search-button']"));
         submitButton.click();
 
-        WebElement searchPageField = driver.findElement(By.cssSelector("input[data-test='search-input']"));
+        WebElement searchPageField = driver.findElement(By.cssSelector("input[data-test='input__inner']"));
 assertEquals("Selenium", searchPageField.getAttribute("value"));    }
 
     @Test
