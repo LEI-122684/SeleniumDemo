@@ -18,7 +18,7 @@ public class MainPage {
     @FindBy(css = "[data-test='site-header-search-action']")
     public WebElement searchButton;
 
-    @FindBy(css = "#ch2-dialog > div.ch2-dialog-actions.ch2-dialog-actions-vertical > button.ch2-btn.ch2-allow-all-btn.ch2-btn-primary")
+    @FindBy(css = "div.ch2-container button")
     public WebElement cookie;
 
     public MainPage(WebDriver driver) {
