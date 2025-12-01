@@ -1,0 +1,1 @@
+[{"uid":"764d7552cf2dbe8f","name":"linkImdbDoPrimeiroFilme_deveAbrirSiteImdb()","time":{"start":1764601367567,"stop":1764601371927,"duration":4360},"status":"passed","severity":"normal"},{"uid":"f0db5cd6f72015fa","name":"informacaoSobreFilmes_deveEstarVisivelNaTabela()","time":{"start":1764601372014,"stop":1764601372956,"duration":942},"status":"passed","severity":"normal"}]

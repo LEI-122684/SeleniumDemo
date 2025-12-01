@@ -1,0 +1,3 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"","4360","linkImdbDoPrimeiroFilme_deveAbrirSiteImdb()","","2025-12-01","passed","2025-12-01","","com.example.seleniumdemo.database.tests.DatabaseTest","com.example.seleniumdemo.database.tests.DatabaseTest","linkImdbDoPrimeiroFilme_deveAbrirSiteImdb"
+"","942","informacaoSobreFilmes_deveEstarVisivelNaTabela()","","2025-12-01","passed","2025-12-01","","com.example.seleniumdemo.database.tests.DatabaseTest","com.example.seleniumdemo.database.tests.DatabaseTest","informacaoSobreFilmes_deveEstarVisivelNaTabela"
