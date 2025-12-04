@@ -1,4 +1,4 @@
-package com.example.seleniumdemo.input;
+package input;
 
 import com.codeborne.selenide.SelenideElement;
 

@@ -1,4 +1,4 @@
-package com.example.seleniumdemo.Sampler;
+package input;
 
 import com.codeborne.selenide.Configuration;
 import org.junit.jupiter.api.Test;
